@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('jenkinsfile') {
       steps {
-        sleep(unit: 'SECONDS', time: 1)
+        echo 'Hola'
       }
     }
 
